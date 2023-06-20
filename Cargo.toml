@@ -1,0 +1,13 @@
+# This is the config file for the project's primary crate, identified by ./src/main.rs
+#   relative to this file.
+
+[package]
+name = "crates-mods"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+inner_crate = { path = "./src/inner_crate" }
+outer_crate = { path = "./outer_crate" }
